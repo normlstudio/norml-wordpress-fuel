@@ -8,7 +8,7 @@
     "validate": "python3 scripts/validate-package.py"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "license": "MIT"
 }

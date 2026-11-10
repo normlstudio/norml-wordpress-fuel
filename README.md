@@ -47,6 +47,14 @@ Complex sites may need additional work. A local WordPress runtime is useful but 
 mandatory when the project has a verified staging preview route. Production data is
 not downloaded by default. This package does not guarantee that AI cannot break a site.
 
+## Manual ZIP installation
+
+Extract the complete bundle ZIP into a temporary folder. Its `.claude/skills/` directory
+contains all three skill folders. Copy those folders into your project's `.claude/skills/`
+for Claude Code or `.agents/skills/` for Codex, preserving any existing customized skills.
+Restart/reload the agent and use the first prompt above. The ZIP is a package root with
+three skills; do not upload it as a single Cowork skill.
+
 ## Existing Advanced installations
 
 The developer component keeps the `norml-wp-developer` slug. This is the v2 Fuel edition;

@@ -20,7 +20,7 @@ See [installation](install.md). Install the full bundle for first-time website s
 An authorized website, access to its hosting account and a local agent with filesystem,
 terminal and Git access. Hosting must support SSH; the source inspection helper also
 needs remote WP-CLI and tar. The agent reports provider-specific missing access instead
-of claiming every host is supported. Node.js/npm is needed for the install command.
+of claiming every host is supported. Node.js 22 or newer and npm is needed for the install command.
 
 ## Boundaries
 
