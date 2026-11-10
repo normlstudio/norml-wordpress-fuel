@@ -1,0 +1,1 @@
+Install all three skills together from the [bundle installation guide](https://norml.studio/skills/wordpress-fuel). Use the project-scoped Claude Code or Codex command. Verify discovery and preserve any existing customized installation before replacement.

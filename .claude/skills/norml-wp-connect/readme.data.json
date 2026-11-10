@@ -1,0 +1,62 @@
+{
+  "skill": "norml-wp-connect",
+  "title": "WordPress Connection",
+  "version": "1.0.0",
+  "repo": "norml-wordpress-fuel",
+  "audience": "WordPress site owners and developers",
+  "actsOn": "Your existing WordPress website",
+  "pitch": "Verify hosting access and download the selected WordPress theme or custom plugin into a new local working folder.",
+  "flow": [
+    {
+      "t": "Resolve",
+      "d": "Reuse the hosting account and existing SSH configuration."
+    },
+    {
+      "t": "Verify",
+      "d": "Check host identity and the actual website URL."
+    },
+    {
+      "t": "Capture",
+      "d": "Plan and download only the selected owned source."
+    },
+    {
+      "t": "Hand off",
+      "d": "Record source mapping and continue with site context."
+    }
+  ],
+  "architecture": {
+    "root": "norml-wp-connect/",
+    "items": [
+      {
+        "path": "SKILL.md",
+        "role": "Agent entry point and workflow boundaries."
+      },
+      {
+        "path": "processes/",
+        "role": "Ordered operating procedures."
+      },
+      {
+        "path": "install.md",
+        "role": "Installation and first use."
+      },
+      {
+        "path": "scripts/site-source.py",
+        "role": "Read-only site inspection and scoped source download."
+      },
+      {
+        "path": "standards/",
+        "role": "Security or development rules for this component."
+      }
+    ]
+  },
+  "limits": {
+    "items": [
+      "Requires an authorized local agent and suitable hosting access.",
+      "No default production database download or generic deployment shortcut.",
+      "Site-specific analysis and checked recovery remain necessary."
+    ]
+  },
+  "generated": "2026-11-10",
+  "hasHumanMd": true,
+  "covers": "1.0.0"
+}

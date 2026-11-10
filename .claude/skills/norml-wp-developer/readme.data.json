@@ -1,0 +1,58 @@
+{
+  "skill": "norml-wp-developer",
+  "title": "WordPress Copilot Advanced",
+  "version": "2.0.0",
+  "repo": "norml-wordpress-fuel",
+  "audience": "WordPress site owners and developers",
+  "actsOn": "Your existing WordPress website",
+  "pitch": "Map an existing WordPress website, maintain its context and implement checked changes within its current architecture.",
+  "flow": [
+    {
+      "t": "Inspect",
+      "d": "Read the actual theme, components, data and delivery rules."
+    },
+    {
+      "t": "Document",
+      "d": "Build evidence-backed site context and record unknowns."
+    },
+    {
+      "t": "Implement",
+      "d": "Reuse the existing stack and component conventions."
+    },
+    {
+      "t": "Verify",
+      "d": "Check the rendered result and follow the project release contract."
+    }
+  ],
+  "architecture": {
+    "root": "norml-wp-developer/",
+    "items": [
+      {
+        "path": "SKILL.md",
+        "role": "Agent entry point and workflow boundaries."
+      },
+      {
+        "path": "processes/",
+        "role": "Ordered operating procedures."
+      },
+      {
+        "path": "install.md",
+        "role": "Installation and first use."
+      },
+      {
+        "path": "standards/",
+        "role": "Security or development rules for this component."
+      }
+    ]
+  },
+  "limits": {
+    "items": [
+      "Requires an authorized local agent and suitable hosting access.",
+      "No default production database download or generic deployment shortcut.",
+      "Site-specific analysis and checked recovery remain necessary."
+    ]
+  },
+  "generated": "2026-11-10",
+  "hasHumanMd": true,
+  "covers": "2.0.0"
+}

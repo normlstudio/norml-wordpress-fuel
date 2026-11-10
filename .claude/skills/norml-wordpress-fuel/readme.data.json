@@ -1,0 +1,54 @@
+{
+  "skill": "norml-wordpress-fuel",
+  "title": "WordPress Fuel",
+  "version": "1.0.0",
+  "repo": "norml-wordpress-fuel",
+  "audience": "WordPress site owners and developers",
+  "actsOn": "Your existing WordPress website",
+  "pitch": "Guide your local AI agent through connecting an existing WordPress website, downloading its source and establishing a documented development workflow.",
+  "flow": [
+    {
+      "t": "Prepare",
+      "d": "Inspect your project and reuse existing setup."
+    },
+    {
+      "t": "Connect",
+      "d": "Verify SSH and the exact WordPress site."
+    },
+    {
+      "t": "Understand",
+      "d": "Download selected source and document the website."
+    },
+    {
+      "t": "Work",
+      "d": "Establish Git, publishing and recovery; then make a checked change."
+    }
+  ],
+  "architecture": {
+    "root": "norml-wordpress-fuel/",
+    "items": [
+      {
+        "path": "SKILL.md",
+        "role": "Agent entry point and workflow boundaries."
+      },
+      {
+        "path": "processes/",
+        "role": "Ordered operating procedures."
+      },
+      {
+        "path": "install.md",
+        "role": "Installation and first use."
+      }
+    ]
+  },
+  "limits": {
+    "items": [
+      "Requires an authorized local agent and suitable hosting access.",
+      "No default production database download or generic deployment shortcut.",
+      "Site-specific analysis and checked recovery remain necessary."
+    ]
+  },
+  "generated": "2026-11-10",
+  "hasHumanMd": true,
+  "covers": "1.0.0"
+}

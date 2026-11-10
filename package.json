@@ -1,0 +1,14 @@
+{
+  "name": "norml-wordpress-fuel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WordPress Fuel public multi-skill bundle",
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v",
+    "validate": "python3 scripts/validate-package.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
