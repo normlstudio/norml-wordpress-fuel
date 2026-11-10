@@ -1,7 +1,7 @@
 {
   "skill": "norml-wp-developer",
   "title": "WordPress Copilot Advanced",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repo": "norml-wordpress-fuel",
   "audience": "WordPress site owners and developers",
   "actsOn": "Your existing WordPress website",
@@ -54,5 +54,5 @@
   },
   "generated": "2026-11-10",
   "hasHumanMd": true,
-  "covers": "2.0.0"
+  "covers": "2.0.1"
 }

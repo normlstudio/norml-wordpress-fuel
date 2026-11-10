@@ -34,4 +34,6 @@ source download. Establish a real preview, release and recovery route before pub
 Read [the agent entry point](SKILL.md) for the operating contract and linked procedures.
 [Changes](changelog.md) records the package version and migration differences.
 
-Covers SKILL.md v1.0.0. Generated 2026-11-10.
+Covers SKILL.md v1.0.1. Generated 2026-11-10.
+
+Setup checks that the selected agent actually loads the shared site instructions on future requests. Existing instruction files are preserved.

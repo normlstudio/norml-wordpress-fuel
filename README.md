@@ -41,7 +41,8 @@ provider sign-in/approval. Keep secrets out of chat and Git.
 3. Reuse existing source or download the selected theme/custom plugin into a new folder.
 4. Analyze real code and write architecture, components, content and design documentation.
 5. Establish Git history, a real preview route, publishing rules and recovery evidence.
-6. Make a small scoped change, check the result and keep the documentation current.
+6. Verify a fresh agent session loads the shared project instructions.
+7. Make a small scoped change, check the result and keep the documentation current.
 
 Complex sites may need additional work. A local WordPress runtime is useful but not
 mandatory when the project has a verified staging preview route. Production data is

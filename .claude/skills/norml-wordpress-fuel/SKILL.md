@@ -1,6 +1,6 @@
 ---
 name: norml-wordpress-fuel
-version: 1.0.0
+version: 1.0.1
 description: >
   Set up an existing WordPress website for a local AI coding agent: secure hosting access, source download, current site documentation, Git history, publishing rules and recovery. Routes to the bundled connection and developer skills; verifies each stage and resumes incomplete setup.
 license: MIT

@@ -1,6 +1,6 @@
 ---
 name: norml-wp-developer
-version: 2.0.0
+version: 2.0.1
 description: >
   WordPress Copilot Advanced, Fuel edition: inspect an existing WordPress theme and project-owned plugins, build and maintain architecture/design/component context, implement scoped changes, verify them and follow the project’s Git, release and recovery contract. Supports inherited themes and Sage without forcing a migration.
 license: MIT

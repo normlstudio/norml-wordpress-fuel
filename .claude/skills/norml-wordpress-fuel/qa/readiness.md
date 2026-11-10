@@ -8,6 +8,7 @@ Each item requires evidence. Record `verified`, `pending` or `blocked` in the se
 - The selected theme/custom source is local, correctly mapped and free of copied secrets.
 - Architecture, integrations, design and component documents reflect inspected reality.
 - Read-before-change and update-after-change rules are present in the project instructions.
+- A fresh session of the selected runtime actually loads the shared instruction entry point and reads the relevant site documents; preserve existing adapters/overrides.
 - Existing Git history is preserved; approved remote and clean baseline are verified.
 - Preview and test route is usable; errors are not treated as passed checks.
 - Publishing policy records environments, checks, approvals and exact release method.

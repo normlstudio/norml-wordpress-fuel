@@ -21,3 +21,7 @@ or design documentation. Mark unknowns explicitly and ask only when they block r
 For every change: read relevant context first; reuse existing components/CSS; verify output
 against the documented rules; update affected docs immediately. Preserve decisions that remain
 true. The next request must start with the current project, not yesterday's assumptions.
+
+Follow the developer skill’s runtime-entry-point check: verify the selected local agent
+loads the shared contract in a fresh session. Codex may need a reference-only AGENTS.md
+adapter; do not assume custom global fallback settings or duplicate the canonical rules.
